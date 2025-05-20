@@ -73,21 +73,30 @@ public class TrianguloRectangulo {
 	    }
 
 
-	//SETTERS
+	/**
+	 * GET A
+	 * @return a
+	 */
 	
-	public void setA(double a) {
-        if (a <= 0) throw new IllegalArgumentException("El cateto a debe ser mayor que cero.");
-        this.a = a;
-        calcularHipotenusa();
+	public double getA() {
+		
+        return a;
     }
 	
-	public void setB(double b) {
-        if (a <= 0) throw new IllegalArgumentException("El cateto b debe ser mayor que cero.");
-        this.b = b;
-        calcularHipotenusa();
-    }
+	/**
+	 * GET B
+	 * @return b
+	 */
 	
-	//TOSTRING
+	public double getB() {
+		
+        return b;
+    }
+
+	
+	/**
+	 * ToString
+	 */
 	
 	public String toString () {
 		
